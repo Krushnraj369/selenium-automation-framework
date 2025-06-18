@@ -1,0 +1,83 @@
+2025-06-18 23:52:02 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\krish\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-06-18 23:52:02 INFO  [main] com.jk.base.BaseTest - 🚀 [Test Start] Initializing WebDriver...
+2025-06-18 23:52:02 INFO  [main] com.jk.drivers.DriverFactory - Initializing WebDriver...
+2025-06-18 23:52:03 INFO  [main] i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-18 23:52:03 INFO  [main] i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\krish\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-18 23:52:04 INFO  [main] com.jk.drivers.DriverFactory - Driver initialized successfully: ChromeDriver: chrome on windows (af5d2a0ecdc8ae992966bd4e83d7595d)
+2025-06-18 23:52:05 INFO  [main] com.jk.tests.IBMBRetailTest - 🔐 Starting Add Beneficiary Test
+2025-06-18 23:52:05 INFO  [main] com.jk.config.ConfigReader - ✅ config.properties loaded successfully.
+2025-06-18 23:52:05 INFO  [main] com.jk.pages.LoginPage - Navigating to application URL: https://netbankinguat.aiplservices.com:31000/login
+2025-06-18 23:52:12 INFO  [main] com.jk.pages.LoginPage - Entering Login ID: MCB176760
+2025-06-18 23:52:13 INFO  [main] com.jk.pages.LoginPage - Entering password.
+2025-06-18 23:52:13 INFO  [main] com.jk.ocr.OCRUtil - OCR Text: 's3nHF', Expected: 'N/A'
+2025-06-18 23:52:13 INFO  [main] com.jk.pages.LoginPage - CAPTCHA recognized as: s3nHF
+2025-06-18 23:52:14 INFO  [main] com.jk.pages.LoginPage - Clicking Login button.
+2025-06-18 23:52:14 INFO  [main] com.jk.pages.LoginPage - Waiting for dashboard to load...
+2025-06-18 23:52:15 INFO  [main] com.jk.pages.LoginPage - Dashboard page loaded successfully.
+2025-06-18 23:52:15 INFO  [main] com.jk.pages.BeneficiaryPage - Clicking on Beneficiary -> Other Bank -> Add Beneficiary
+2025-06-18 23:52:16 INFO  [main] com.jk.tests.IBMBRetailTest - Asserting page title: Expected = 'Add Beneficiary', Actual = 'Myanmar Citizens Bank | Secure Internet Banking Services'
+2025-06-18 23:52:17 INFO  [main] com.jk.base.BaseTest - 🧹 [Test End] Quitting WebDriver...
+2025-06-18 23:52:17 INFO  [main] com.jk.drivers.DriverFactory - Quitting WebDriver...
+2025-06-18 23:52:17 INFO  [main] com.jk.drivers.DriverFactory - WebDriver quit successfully.
+2025-06-18 23:55:55 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\krish\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-06-18 23:55:55 INFO  [main] com.jk.base.BaseTest - 🚀 [Test Start] Initializing WebDriver...
+2025-06-18 23:55:55 INFO  [main] com.jk.drivers.DriverFactory - Initializing WebDriver...
+2025-06-18 23:55:55 INFO  [main] i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-18 23:55:55 INFO  [main] i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\krish\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-18 23:55:57 INFO  [main] com.jk.drivers.DriverFactory - Driver initialized successfully: ChromeDriver: chrome on windows (cf22d6b16d7e9e9d8e9d4ce923a9ff75)
+2025-06-18 23:55:57 INFO  [main] com.jk.tests.IBMBRetailTest - 🔐 Starting Add Beneficiary Test
+2025-06-18 23:55:57 INFO  [main] com.jk.config.ConfigReader - ✅ config.properties loaded successfully.
+2025-06-18 23:55:57 INFO  [main] com.jk.pages.LoginPage - Navigating to application URL: https://netbankinguat.aiplservices.com:31000/login
+2025-06-18 23:56:02 INFO  [main] com.jk.pages.LoginPage - Entering Login ID: MCB176760
+2025-06-18 23:56:02 INFO  [main] com.jk.pages.LoginPage - Entering password.
+2025-06-18 23:56:03 INFO  [main] com.jk.ocr.OCRUtil - OCR Text: 'jN32H', Expected: 'N/A'
+2025-06-18 23:56:03 INFO  [main] com.jk.pages.LoginPage - CAPTCHA recognized as: jN32H
+2025-06-18 23:56:03 INFO  [main] com.jk.pages.LoginPage - Clicking Login button.
+2025-06-18 23:56:03 INFO  [main] com.jk.pages.LoginPage - Waiting for dashboard to load...
+2025-06-18 23:56:04 INFO  [main] com.jk.pages.LoginPage - Dashboard page loaded successfully.
+2025-06-18 23:56:04 INFO  [main] com.jk.pages.BeneficiaryPage - Clicking on Beneficiary -> Other Bank -> Add Beneficiary
+2025-06-18 23:56:06 INFO  [main] com.jk.tests.IBMBRetailTest - Asserting page title: Expected = 'Myanmar Citizens Bank | Secure Internet Banking Services', Actual = 'Myanmar Citizens Bank | Secure Internet Banking Services'
+2025-06-18 23:56:06 INFO  [main] com.jk.pages.BeneficiaryPage - Filling beneficiary form with data: com.jk.data.BeneficiaryData@6e4f263e
+2025-06-18 23:56:06 INFO  [main] com.jk.pages.BeneficiaryPage - Selecting 'Bangkok Bank' from dropdown labeled 'Select Beneficiary Bank'
+2025-06-18 23:56:07 INFO  [main] com.jk.pages.BeneficiaryPage - Selecting 'Yangon' from dropdown labeled 'Select Region'
+2025-06-18 23:56:07 INFO  [main] com.jk.pages.BeneficiaryPage - Selecting 'Bangkok Bank Public Company Limited' from dropdown labeled 'Select Branch'
+2025-06-18 23:56:08 INFO  [main] com.jk.pages.BeneficiaryPage - Submitting beneficiary form
+2025-06-18 23:56:08 INFO  [main] com.jk.pages.BeneficiaryPage - Confirming beneficiary submission
+2025-06-18 23:56:08 INFO  [main] com.jk.tests.IBMBRetailTest - ✅ Add Beneficiary Test Completed
+2025-06-18 23:56:08 INFO  [main] com.jk.base.BaseTest - 🧹 [Test End] Quitting WebDriver...
+2025-06-18 23:56:08 INFO  [main] com.jk.drivers.DriverFactory - Quitting WebDriver...
+2025-06-18 23:56:08 INFO  [main] com.jk.drivers.DriverFactory - WebDriver quit successfully.
+2025-06-19 00:13:06 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\krish\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-06-19 00:13:06 INFO  [main] com.jk.base.BaseTest - 🚀 [Test Start] Initializing WebDriver...
+2025-06-19 00:13:06 INFO  [main] com.jk.drivers.DriverFactory - Initializing WebDriver...
+2025-06-19 00:13:06 INFO  [main] i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-19 00:13:06 INFO  [main] i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\krish\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-19 00:13:08 INFO  [main] com.jk.drivers.DriverFactory - Driver initialized successfully: ChromeDriver: chrome on windows (25b7ea3d776a96fb9f3036016de73375)
+2025-06-19 00:13:08 INFO  [main] com.jk.tests.IBMBRetailTest - 🔐 Starting Add Beneficiary Test
+2025-06-19 00:13:08 INFO  [main] com.jk.config.ConfigReader - ✅ config.properties loaded successfully.
+2025-06-19 00:13:08 INFO  [main] com.jk.pages.LoginPage - Navigating to application URL: https://netbankinguat.aiplservices.com:31000/login
+2025-06-19 00:13:11 INFO  [main] com.jk.pages.LoginPage - Entering Login ID: MCB176760
+2025-06-19 00:13:11 INFO  [main] com.jk.pages.LoginPage - Entering password.
+2025-06-19 00:13:12 INFO  [main] com.jk.ocr.OCRUtil - OCR Text: 'xmN49', Expected: 'N/A'
+2025-06-19 00:13:12 INFO  [main] com.jk.pages.LoginPage - CAPTCHA recognized as: xmN49
+2025-06-19 00:13:12 INFO  [main] com.jk.pages.LoginPage - Clicking Login button.
+2025-06-19 00:13:13 INFO  [main] com.jk.pages.LoginPage - Waiting for dashboard to load...
+2025-06-19 00:13:14 INFO  [main] com.jk.pages.LoginPage - Dashboard page loaded successfully.
+2025-06-19 00:13:14 INFO  [main] com.jk.pages.BeneficiaryPage - Clicking on Beneficiary -> Other Bank -> Add Beneficiary
+2025-06-19 00:13:15 INFO  [main] com.jk.tests.IBMBRetailTest - Asserting page title: Expected = 'Myanmar Citizens Bank | Secure Internet Banking Services', Actual = 'Myanmar Citizens Bank | Secure Internet Banking Services'
+2025-06-19 00:13:15 INFO  [main] com.jk.pages.BeneficiaryPage - Filling beneficiary form with data: com.jk.data.BeneficiaryData@181d8899
+2025-06-19 00:13:16 INFO  [main] com.jk.pages.BeneficiaryPage - Selecting 'Bangkok Bank' from dropdown labeled 'Select Beneficiary Bank'
+2025-06-19 00:13:16 INFO  [main] com.jk.pages.BeneficiaryPage - Selecting 'Yangon' from dropdown labeled 'Select Region'
+2025-06-19 00:13:17 INFO  [main] com.jk.pages.BeneficiaryPage - Selecting 'Bangkok Bank Public Company Limited' from dropdown labeled 'Select Branch'
+2025-06-19 00:13:18 INFO  [main] com.jk.pages.BeneficiaryPage - Submitting beneficiary form
+2025-06-19 00:13:18 INFO  [main] com.jk.pages.BeneficiaryPage - Confirming beneficiary submission
+2025-06-19 00:13:18 INFO  [main] com.jk.tests.IBMBRetailTest - ✅ Add Beneficiary Test Completed
+2025-06-19 00:13:18 INFO  [main] com.jk.base.BaseTest - 🧹 [Test End] Quitting WebDriver...
+2025-06-19 00:13:18 INFO  [main] com.jk.drivers.DriverFactory - Quitting WebDriver...
+2025-06-19 00:13:18 INFO  [main] com.jk.drivers.DriverFactory - WebDriver quit successfully.

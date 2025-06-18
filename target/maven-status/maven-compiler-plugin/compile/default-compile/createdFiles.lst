@@ -1,0 +1,8 @@
+com\jk\base\BaseTest.class
+com\jk\drivers\DriverFactory.class
+com\jk\pages\LoginPage.class
+com\jk\utils\DropdownUtil.class
+com\jk\ocr\OCRUtil.class
+com\jk\data\BeneficiaryData.class
+com\jk\config\ConfigReader.class
+com\jk\pages\BeneficiaryPage.class
