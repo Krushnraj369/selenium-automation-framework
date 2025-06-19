@@ -1,4 +1,4 @@
-package com.jk.pages;
+package com.jk.pages.beneficiary;
 
 import com.jk.data.BeneficiaryData;
 import com.jk.utils.DropdownUtil;

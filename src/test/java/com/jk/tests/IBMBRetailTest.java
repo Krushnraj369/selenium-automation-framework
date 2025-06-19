@@ -2,8 +2,8 @@ package com.jk.tests;
 
 import com.jk.base.BaseTest;
 import com.jk.data.BeneficiaryData;
-import com.jk.pages.BeneficiaryPage;
 import com.jk.pages.LoginPage;
+import com.jk.pages.beneficiary.OtherMCBBeneficiaryPage;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.slf4j.Logger;
@@ -20,7 +20,8 @@ public class IBMBRetailTest extends BaseTest {
         logger.info("🔐 Starting Add Beneficiary Test");
 
         LoginPage login = new LoginPage(driver);
-        BeneficiaryPage beneficiary = new BeneficiaryPage(driver);
+     //*   BeneficiaryPage beneficiary = new BeneficiaryPage(driver);*/
+        OtherMCBBeneficiaryPage beneficiary = new OtherMCBBeneficiaryPage(driver);
 
         performLoginStep(login);
         navigateToAddBeneficiaryStep(beneficiary);
@@ -42,13 +43,13 @@ public class IBMBRetailTest extends BaseTest {
     }
 
     @Step("Navigate to Add Beneficiary")
-    public void navigateToAddBeneficiaryStep(BeneficiaryPage beneficiary) {
+    public void navigateToAddBeneficiaryStep(OtherMCBBeneficiaryPage beneficiary) {
         beneficiary.navigateToAddBeneficiary();
     }
 
     @Step("Adding beneficiary with data: {0}")
-    public void addBeneficiaryStep(BeneficiaryPage beneficiary, BeneficiaryData data) {
-        beneficiary.addBeneficiary(data);
+    public void addBeneficiaryStep(OtherMCBBeneficiaryPage beneficiary, BeneficiaryData data) {
+        beneficiary.addOtherMcbBeneficiary(data);
     }
 
     @Step("Verifying page title: Expected = '{0}'")
